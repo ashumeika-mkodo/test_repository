@@ -1,11 +1,11 @@
 #!/bin/bash
 
-COMMIT_MESSAGE="hook commit"
-LAST_COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+# COMMIT_MESSAGE="hook commit"
+# LAST_COMMIT_MESSAGE=$(git log -1 --pretty=%B)
 
-if ! [[ "$LAST_COMMIT_MESSAGE" == "$COMMIT_MESSAGE" ]]
-then
-	echo "From hook" >> README.md
-	git add .
-	git commit -m "$COMMIT_MESSAGE"
-fi
+# if ! [[ "$LAST_COMMIT_MESSAGE" == "$COMMIT_MESSAGE" ]]
+# then
+# 	echo "From hook" >> README.md
+# 	git add .
+# 	git commit -m "$COMMIT_MESSAGE"
+# fi
