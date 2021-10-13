@@ -1,2 +1,1 @@
-README
-From hook
+ANOTHER_README
